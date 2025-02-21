@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at ID1_ID2_inst2Pipe.v(51): always construct contains both blocking and non-blocking assignments File: C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual issue/ID1_ID2_inst2Pipe.v Line: 51
+Warning (10268): Verilog HDL information at ID1_ID2_inst1Pipe.v(50): always construct contains both blocking and non-blocking assignments File: C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual issue/ID1_ID2_inst1Pipe.v Line: 50
+Warning (10268): Verilog HDL information at RegFile.v(30): always construct contains both blocking and non-blocking assignments File: C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual issue/RegFile.v Line: 30

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Feb 21 04:50:36 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : processor
+Top-level Entity Name : dual_issue_processor
+Family : MAX 10
+Total logic elements : 9,523
+    Total combinational functions : 9,499
+    Dedicated logic registers : 2,185
+Total registers : 2185
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 139,264
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

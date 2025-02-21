@@ -1,0 +1,46 @@
+module MEM_WB_inst1Pipe (
+    input clk,
+    input reset,
+    input [31:0] MemReadDataMem_inst1,
+    input [31:0] AluResultMem_inst1,
+    input [4:0] Rd_Mem_inst1,
+    input [4:0] Rt_Mem_inst1, //dont forgor reg 31 as a dest reg
+    input [1:0] MemtoRegMem_inst1,
+    input RegWriteEn_inst1_Mem ,
+
+    output reg [31:0] MemReadDataWB_inst1,
+    output reg [31:0] AluOutWB_inst1 ,
+    output reg [4:0] Rd_WB_inst1,
+    output reg [4:0] Rt_WB_inst1,
+    output reg [1:0] MemtoRegWB_inst1,
+    output reg RegWriteEn_inst1_WB 
+    
+    )
+
+always @(posedge clk, negedge reset) 
+    begin
+        if(~reset)
+        begin
+
+        MemReadDataMem_inst1 <= 32'b0;
+        AluResultMem_inst1<= 32'b0;
+        Rd_Mem_inst1<= 5'b0;
+        Rt_Mem_inst1<= 5'b0;
+        MemtoRegMem_inst1<= 2'b0;
+        RegWriteEn_inst1_Mem<= 2'b0 ;
+           
+        end
+    end
+    else 
+    begin
+        MemReadDataWB_inst1 <=MemReadDataMem_inst1  ;
+        AluResultWB_inst1<= AluOutMem_inst1;
+        Rd_WB_inst1 <= Rd_Mem_inst1 ;
+        Rt_WB_inst1 <=Rt_Mem_inst1 ;
+        MemtoRegWB_inst1 <=MemtoRegMem_inst1 ;
+        RegWriteEn_inst1_WB <=RegWriteEn_inst1_Mem  ;
+           
+           
+
+    end 
+    endmodule

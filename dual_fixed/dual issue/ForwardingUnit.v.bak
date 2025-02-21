@@ -1,0 +1,65 @@
+
+module ForwardingUnit(
+// inst 1 
+    input[4:0] Rd_mem_inst1,
+    input[4:0] Rd_WB_inst1,
+    input[4:0] Rs_EX_inst1,
+    input[4:0] Rt_EX_inst1,
+    input[4:0] Rs_D_inst1,
+    input[4:0] Rt_D_inst1,
+    input RegWrite_mem_inst1, //reg write control signal, 
+    input RegWrite_WB_inst1,
+// inst 2 
+    input[4:0] Rd_mem_inst2,
+    input[4:0] Rd_WB_inst2,
+    input[4:0] Rs_EX_inst2,
+    input[4:0] Rt_EX_inst2,
+    input[4:0] Rs_D_inst2,
+    input[4:0] Rt_D_inst2,
+    input RegWrite_mem_inst2, //reg write control signal, 
+    input RegWrite_WB_inst2,
+//outputs
+  // inst 1 
+    output reg [1:0] forwardA_inst1,
+    output reg [1:0] forwardB_inst1,
+  // inst 2 
+    output reg [1:0] forwardA_inst2,
+    output reg [1:0] forwardB_inst2
+);
+
+always @(*) begin
+    // frwrd execute
+    forwardA_inst1 = 2'd0;
+    forwardB_inst1 = 2'd0;
+    if(RegWrite_mem_inst1 && (Rd_mem_inst1 == Rs_EX_inst1 ) && (Rd_mem_inst1 != 0))
+        forwardA_inst1[0] = 1;
+
+    if(RegWrite_mem_inst1 && (Rd_mem_inst1 == Rt_EX_inst1 ) && (Rd_mem_inst1 != 0))
+        forwardB_inst1[0] = 1;
+
+    if((RegWrite_WB_inst1 && (Rd_WB_inst1 == Rs_EX_inst1 ) && (Rd_WB_inst1 != 0)) && (~forwardA_inst1[0]))
+        forwardA_inst1[1] = 1;
+
+    if((RegWrite_WB_inst1 && (Rd_WB_inst1 == Rt_EX_inst1 ) && (Rd_WB_inst1 != 0)) && (~forwardB_inst1[0]))
+        forwardB_inst1[1] = 1;
+end
+
+always @(*) begin
+    // frwrd execute
+    forwardA_inst2 = 2'd0;
+    forwardB_inst2 = 2'd0;
+    if(RegWrite_mem_inst2 && (Rd_mem_inst2 == Rs_EX_inst2 ) && (Rd_mem_inst2 != 0))
+        forwardA_inst2[0] = 1;
+
+    if(RegWrite_mem_inst2 && (Rd_mem_inst2 == Rt_EX_inst2 ) && (Rd_mem_inst2 != 0))
+        forwardB_inst2[0] = 1;
+
+    if((RegWrite_WB_inst2 && (Rd_WB_inst2 == Rs_EX_inst2 ) && (Rd_WB_inst2 != 0)) && (~forwardA_inst2[0]))
+        forwardA_inst2[1] = 1;
+
+    if((RegWrite_WB_inst2 && (Rd_WB_inst2 == Rt_EX_inst2 ) && (Rd_WB_inst2 != 0)) && (~forwardB_inst2[0]))
+        forwardB_inst2[1] = 1;
+end
+
+
+endmodule

@@ -1,0 +1,95 @@
+
+// this is the pipe between fetch/first decode substage 
+module IF_ID1_Pipe (
+    input clk,
+    input reset,
+    input [31:0] inst1_Fetch, //inst 1 input
+    input [31:0] inst2_Fetch, //inst2 input
+    input [7:0] pcF, //pc of inst1
+    input [7:0] pcPlus1F, //pc of inst2
+	input [7:0] pcBranchF,//propagated pc of the current instruction because it is needed to be used in bpu
+    input [7:0] pcPlus2_F,
+    //input stall_inst1,
+    //input stall_inst2,
+    input flush1_J,
+    input flush2_JR,
+    input flush2_J,
+    input flush1_JR
+    input flush1_B,
+    input flush2_B,
+	input predictionF,
+
+    output reg [7:0] pcPlus2_D,
+    output reg [31:0] inst1_Decode,
+    output reg [31:0] inst2_Decode,
+    output reg [7:0] pcD, 
+    output reg [7:0] pcPlus1D,
+	output reg [7:0] pcBranchD,
+	output reg predictionD
+
+);
+    always @ (posedge clk, negedge reset) begin
+        if (~reset) 
+		  begin
+            inst1_Decode <= 32'b0;
+            inst2_Decode <= 32'b0;
+            pcD <= 8'b0;
+            pcPlus2_D <= 8'b0;
+			pcBranchD<=8'b0;
+			pcPlus1D<=8'b0;
+			predictionD<=0;
+        end
+		
+
+        // decode -> j/jr/jal check order then decide to flush either inst 2 and fetch or only fetch instructions
+        //execute branch both decode and fetch plus check order
+        //stall 
+        //JR
+        //INSTRUCTION
+        
+        //flush 1 inputs for decode pipe are 0
+        //inputs for lower execute pipe is 0
+
+        //flush2 inputs for decode pipe are 0
+
+
+        else if (flush1_J || flush2_J || flush1_B || flush2_B || flush1_JR || flush2_JR) //assume flush cause is Jump instructions which are resolved in decode stage. (Jump instruction is an upper instruction)
+            begin
+                inst1_Decode <= 32'b0;
+                inst2_Decode <= 32'b0;
+                pcBranchD<=8'b0;
+                pcPlus1D<=8'b0;
+                predictionD<=0;
+                   
+            end
+		// else if(stall_inst1) // stall when ld and the use are the upper instruction 
+		// 	begin
+		// 		instruction1Decode_M <= instruction1Decode_M;
+        //         instruction2Decode_M <= instruction2Decode_M;
+        //         pcPlus1D <= pcPlus1D;
+        //         pcD <= pcD;
+		// 		pcBranchD <= pcBranchD;
+		// 		predictionD = predictionD;
+            
+		// 	end
+   
+        // else if (stall_inst2)// stall when ld is upper and the use is the lower instruction 
+        //     begin
+        //         instruction2Decode_M <= instruction2Decode_M; 
+        //         instruction1Decode_M <= instruction1Fetch_M; 
+        //         pcPlus1D <= pcPlus1D;
+        //         pcD <= pcF;
+        //         pcBranchD <= pcBranchF;
+        //         predictionD <= predictionF; 
+        //     end
+        else  
+		  begin
+            instructionDecode <= instructionFetch;
+            pcPlus1D <= pcPlus1F;
+            pcD <= pcF;
+			pcBranchD <= pcBranchF;
+			predictionD <= predictionF;
+            pcPlus2_D <= pcPlus2_F;
+        end
+    end
+endmodule 

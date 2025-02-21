@@ -1,0 +1,37 @@
+module check_outer_dep (
+    input [4:0] Rs_D1_inst1,
+    input [4:0] Rs_D1_inst2,
+    input [4:0] Rt_D1_inst1,
+    input [4:0] Rt_D1_inst2,
+
+    input [4:0] Rd_D2_inst1,
+    input [4:0] Rd_D2_inst2,
+
+    input RegWriteEn_inst1_D1,
+    input RegWriteEn_inst2_D1,
+    input RegWriteEn_inst1_D2,
+    input RegWriteEn_inst2_D2, 
+    output reg outer_depend
+);
+    
+    reg dep_upper_upper, dep_upper_lower, dep_lower_upper, dep_lower_upper, dep_lower_lower;
+
+
+always @(*) begin
+    dep_upper_upper = (RegWriteEn_inst1_D2 & ((Rd_D2_inst1 == Rs_D1_inst1)
+    || (Rd_D2_inst1 == Rt_D1_inst1)) & (Rd_D2_inst1 != 5'b0));
+
+    dep_upper_lower = (RegWriteEn_inst1_D2 & ((Rd_D2_inst1 == Rs_D1_inst2)
+    || (Rd_D2_inst1 == Rt_D1_inst2)) & (Rd_D2_inst1 != 5'b0));
+
+    dep_lower_upper = (RegWriteEn_inst2_D2 & ((Rd_D2_inst2 == Rs_D1_inst1)
+    || (Rd_D2_inst2 == Rt_D1_inst1)) & (Rd_D2_inst2 != 5'b0));
+
+    dep_lower_lower = (RegWriteEn_inst2_D2 & ((Rd_D2_inst2 == Rs_D1_inst2)
+    || (Rd_D2_inst2 == Rt_D1_inst2)) & (Rd_D2_inst2 != 5'b0)); 
+
+    outer_depend =  dep_upper_upper | dep_upper_lower | dep_lower_upper | dep_lower_lower ; 
+end
+    
+
+endmodule

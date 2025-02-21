@@ -1,0 +1,20 @@
+     Rd_EX_inst1
+     Rs_EX_inst1
+     Rt_EX_inst1
+     readData1_EX_inst1
+     readData2_EX_inst1
+     Imm_EX_inst1
+     pcPlus1_EX
+     pcBranch_EX
+     prediction_EX
+
+     MemReadEn_inst2_EX
+     MemWriteEn_inst2_EX
+     RegWriteEn_inst2_EX
+     ALUSrc_inst2_EX
+     JUMP_inst2_EX
+     Branch_inst2_EX
+     PCsrc_inst2_EX
+    MemtoReg_inst2_EX
+      RegDst_inst2_EX
+      ALUOp_inst2_EX

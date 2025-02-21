@@ -1,0 +1,20 @@
+addi $17, $0, 10
+andi $18, $0, 0
+xori $24, $0, 2
+add $19, $18, $0
+lw $25, 0x0($19)
+jal mul_fun
+sw $23, 0x0($19)
+addi $18, $18, 1
+sub $20, $18, $17
+slti $1, $20, 0
+bne $1, $0, outer_loop
+j finish
+andi $23, $0, 0
+addi $22, $25, -1
+add  $23, $23, $24
+addi $22, $22, -1
+slti $2, $22, 0
+beq $2, $0, mul_loop
+jr $31
+sll $0, $0, 0

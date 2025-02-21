@@ -1,0 +1,50 @@
+
+ADDI $8 , $0, 0X0E 
+ADDI $9, $0, 0
+
+ADDI $10, $0, 0 # 
+OUTERLOOP:
+SLT $11, $9, $8
+
+BEQ $11, $0, finish
+ADD $12, $9, $0
+
+ADDI $14, $0, 0
+LW $13, 0x0($12)
+
+ADDI $15, $0, 0
+INNERLOOP:
+SLT $24, $14, $10
+
+BEQ $24, $0, addToResult
+ADD $25, $14, $0
+sll $0, $0, 0
+LW $16, 0x20($25)
+sll $0, $0, 0
+sll $0, $0, 0
+BEQ $13, $16, DUPLICATEFOUND
+sll $0, $0, 0
+sll $0, $0, 0
+ADDI $14, $14, 1
+JAL innerLoop
+DUPLICATEFOUND:
+ADDI $15, $0, 1
+
+JAL outerContinue
+ADDTORESULT:
+BEQ $15, $0, storeValue
+JAL OUTERCONTINUE
+
+STOREVALUE:
+ADD $25, $10, $0
+sll $0, $0, 0
+
+SW $13, 0x20($25)
+ADDI $10, $10, 1
+
+OUTERCONTINUE:
+ADDI $9, $9, 1
+JAL OUTERLOOP
+
+FINISH:
+sll $0, $0, 0

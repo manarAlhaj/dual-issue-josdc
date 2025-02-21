@@ -1,0 +1,37 @@
+module ForwardingUnit(
+    input[4:0] EXMEM_Rd,
+    input[4:0] MEMWB_Rd,
+    input[4:0] IDEX_Rs,
+    input[4:0] IDEX_Rt,
+    input EXMEM_RegWrite //reg write control signal, 
+    input MEMWB_RegWrite,
+	
+    output reg [1:0] forwardA,
+	output reg [1:0] forwardB
+
+);
+
+always @(*) begin
+	// frwrd execute
+    if(EXMEM_RegWrite && (EXMEM_Rd == IDEX_Rs ) && (EXMEM_Rd != 0))
+        forwardA[0] = 1'd1; 
+    
+    if(EXMEM_RegWrite && (EXMEM_Rd == IDEX_Rt ) && (EXMEM_Rd != 0))
+        forwardB[0] = 1'd1;
+
+//frwrd writeback
+    if(MEMWB_RegWrite && (MEMWB_Rd == IDEX_Rs) && 
+        ((EXMEM_Rd != IDEX_Rs ) || (EXMEM_RegWrite == 0)) 
+        && (MEMWB_Rd != 0 ))
+        forwardA[1] = 1'd1;
+        
+    if(MEMWB_RegWrite && (MEMWB_Rd == IDEX_Rt) && 
+        ((EXMEM_Rd != IDEX_Rt ) || (EXMEM_RegWrite == 0)) 
+        && (MEMWB_Rd != 0 ))
+        forwardB[1] = 1'd1;    
+            
+	else ;
+    
+end
+// forwardA[0]: forward to RD1 in Decode stage from E
+endmodule 

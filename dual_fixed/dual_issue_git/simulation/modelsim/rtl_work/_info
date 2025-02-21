@@ -1,0 +1,608 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Windows/Desktop/dual-old/dual_issue_git/simulation/modelsim
+vALU
+Z1 !s110 1740102472
+!i10b 1
+!s100 ihkU[ni51O<c6015id`E:1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@bGM<9d5>QEeTOAHNDDkz1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1740062172
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/ALU.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/ALU.v
+!i122 20
+L0 1 43
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1740102472.000000
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/ALU.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git
+Z9 tCvgOpt 0
+n@a@l@u
+vANDGate
+R1
+!i10b 1
+!s100 [7AXbFTB0;hR?Q`mojBNS0
+R2
+I1WUIH`hGCoOT5fbONEP:42
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/ANDGate.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/ANDGate.v
+!i122 19
+L0 1 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/ANDGate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/ANDGate.v|
+!i113 1
+R7
+R8
+R9
+n@a@n@d@gate
+vBPU
+R1
+!i10b 1
+!s100 69W;hkjOL0?7J9f?cOkNo1
+R2
+IEHG4eG6SKTLg]]ia[IDPZ1
+R3
+R0
+w1740102060
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/BPU.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/BPU.v
+!i122 22
+Z10 L0 1 60
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/BPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/BPU.v|
+!i113 1
+R7
+R8
+R9
+n@b@p@u
+vBranchCmpUnit
+R1
+!i10b 1
+!s100 eIIMjAA2Ol<RZCHK^MM=j0
+R2
+IO@9CAdhQP2KK^P83G0F^E0
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/BranchCmpUnit.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/BranchCmpUnit.v
+!i122 18
+L0 2 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/BranchCmpUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/BranchCmpUnit.v|
+!i113 1
+R7
+R8
+R9
+n@branch@cmp@unit
+vControlUnit
+Z11 !s110 1740102471
+!i10b 1
+!s100 6bW42@bF=OlWPiSE2<^NF3
+R2
+Ia=U1`Ie>c4i5=N5h_;CPo0
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/ControlUnit.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/ControlUnit.v
+!i122 17
+L0 1 174
+R5
+r1
+!s85 0
+31
+Z12 !s108 1740102471.000000
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/ControlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/ControlUnit.v|
+!i113 1
+R7
+R8
+R9
+n@control@unit
+vDataMemory
+Z13 !s110 1740102470
+!i10b 1
+!s100 R2C9bc6aWX=FNEEBgBa`b1
+R2
+IVPFliMZPG]m<C5o<NMJH=2
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/DataMemory.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/DataMemory.v
+!i122 1
+L0 40 97
+R5
+r1
+!s85 0
+31
+Z14 !s108 1740102470.000000
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/DataMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/DataMemory.v|
+!i113 1
+R7
+R8
+R9
+n@data@memory
+vdual_issue_processor
+R11
+!i10b 1
+!s100 Ej8zhDEomIhgX[jUof0;Z2
+R2
+I_]XRTko>I6;cEO33BUXi_2
+R3
+R0
+w1740102258
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/dual_issue_processor.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/dual_issue_processor.v
+!i122 16
+L0 1 612
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/dual_issue_processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/dual_issue_processor.v|
+!i113 1
+R7
+R8
+R9
+vEX_MEM_inst1Pipe
+R11
+!i10b 1
+!s100 43eDSz_V3laK189ZkXHOL2
+R2
+I;CkbEMQXhWd[72cM^S@Uz3
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst1Pipe.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst1Pipe.v
+!i122 15
+R10
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst1Pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst1Pipe.v|
+!i113 1
+R7
+R8
+R9
+n@e@x_@m@e@m_inst1@pipe
+vEX_MEM_inst2Pipe
+R11
+!i10b 1
+!s100 PacSo6[^KM=zWGcVfEaF?0
+R2
+IcnOJEmRB:<5[KDBb]l?UT2
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst2Pipe.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst2Pipe.v
+!i122 14
+L0 1 74
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst2Pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/EX_MEM_inst2Pipe.v|
+!i113 1
+R7
+R8
+R9
+n@e@x_@m@e@m_inst2@pipe
+vForwardingUnit
+R11
+!i10b 1
+!s100 R5N7NJY;6DI=hAONcDV<z3
+R2
+I>1i[oNL7aZJ8cg<?2f6Ca2
+R3
+R0
+w1740079787
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/ForwardingUnit.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/ForwardingUnit.v
+!i122 13
+L0 1 85
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/ForwardingUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/ForwardingUnit.v|
+!i113 1
+R7
+R8
+R9
+n@forwarding@unit
+vID_EX_inst1Pipe
+R11
+!i10b 1
+!s100 a<GlSB?8133E]I:Gm3XiU2
+R2
+I6f;LJ?ZTfk>b]d]A^A3UK0
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst1Pipe.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst1Pipe.v
+!i122 12
+L0 1 140
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst1Pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst1Pipe.v|
+!i113 1
+R7
+R8
+R9
+n@i@d_@e@x_inst1@pipe
+vID_EX_inst2Pipe
+R11
+!i10b 1
+!s100 z6<jJO=H[n8gjEWB13m`:2
+R2
+IeRCPMfmb7bIh]d@`Gh__03
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst2Pipe.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst2Pipe.v
+!i122 11
+L0 1 131
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst2Pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/ID_EX_inst2Pipe.v|
+!i113 1
+R7
+R8
+R9
+n@i@d_@e@x_inst2@pipe
+vIF_ID1_Pipe
+R11
+!i10b 1
+!s100 BRXRHo>ieY;BBb6[W?6@G0
+R2
+I8`cQYh38`0ZZCILS]>M`X3
+R3
+R0
+w1740095007
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/IF_ID1_Pipe.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/IF_ID1_Pipe.v
+!i122 10
+L0 2 96
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/IF_ID1_Pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/IF_ID1_Pipe.v|
+!i113 1
+R7
+R8
+R9
+n@i@f_@i@d1_@pipe
+vInstructionMemory
+R13
+!i10b 1
+!s100 PazSgXb[RLLDO`z]TiKJC3
+R2
+I^=j?X1zQe6zj9mRSH=DO]2
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/InstructionMemory.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/InstructionMemory.v
+!i122 0
+L0 40 90
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/InstructionMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/InstructionMemory.v|
+!i113 1
+R7
+R8
+R9
+n@instruction@memory
+vMEM_WB_inst1Pipe
+R11
+!i10b 1
+!s100 `4P?0GCWZeGQ<gY=>kX<91
+R2
+IhDGV8kLQcPZ_4lGHj32j<3
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst1Pipe.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst1Pipe.v
+!i122 9
+L0 1 46
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst1Pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst1Pipe.v|
+!i113 1
+R7
+R8
+R9
+n@m@e@m_@w@b_inst1@pipe
+vMEM_WB_inst2Pipe
+R13
+!i10b 1
+!s100 oVd1UW9QfToo<4_==g9cJ2
+R2
+I7UzF71Y_<j[P@k;lDDigi2
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst2Pipe.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst2Pipe.v
+!i122 8
+L0 1 55
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst2Pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/MEM_WB_inst2Pipe.v|
+!i113 1
+R7
+R8
+R9
+n@m@e@m_@w@b_inst2@pipe
+vmini_Control_Unit
+R1
+!i10b 1
+!s100 _edoXfTO<POD8ZPeK^3_z0
+R2
+II;KMh[f1=GYiSkz4hJ]9g3
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/mini_Control_Unit.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/mini_Control_Unit.v
+!i122 21
+L0 1 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/mini_Control_Unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/mini_Control_Unit.v|
+!i113 1
+R7
+R8
+R9
+nmini_@control_@unit
+vmux2to1
+R13
+!i10b 1
+!s100 hGA23fVim4]EkBPXQon0N0
+R2
+ImGCWJWjn6DAje1^G2l_;Q3
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/mux2to1.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/mux2to1.v
+!i122 7
+L0 1 13
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/mux2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/mux2to1.v|
+!i113 1
+R7
+R8
+R9
+vMux3to1
+R13
+!i10b 1
+!s100 S=nU_7J=<5Q8X2GgR^:IL3
+R2
+IRU]i1b_PTGOP1J3RMk9N21
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux3to1.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux3to1.v
+!i122 6
+L0 1 18
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux3to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux3to1.v|
+!i113 1
+R7
+R8
+R9
+n@mux3to1
+vMux5to1
+R13
+!i10b 1
+!s100 ]_Kzl]0m@fhHQ@l96L=gY1
+R2
+I82iKJjRV4j9COaOFnM7Dm0
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux5to1.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux5to1.v
+!i122 5
+L0 1 19
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux5to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/Mux5to1.v|
+!i113 1
+R7
+R8
+R9
+n@mux5to1
+vRegFile
+R13
+!i10b 1
+!s100 k6^CdYBH7X8giEg`4f4dU2
+R2
+IzmD9C;Um5f]TCeV]LME]C1
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/RegFile.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/RegFile.v
+!i122 4
+L0 3 52
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/RegFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/RegFile.v|
+!i113 1
+R7
+R8
+R9
+n@reg@file
+vSignExtend
+R13
+!i10b 1
+!s100 mZRkN2Gm?S06BQU;3T;CF3
+R2
+IJ`C5Q;kE6i_ANoGnkzZ=a2
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/SignExtend.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/SignExtend.v
+!i122 3
+L0 2 15
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/SignExtend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/SignExtend.v|
+!i113 1
+R7
+R8
+R9
+n@sign@extend
+vtestbench
+R1
+!i10b 1
+!s100 C[Wd_HX16YE<GBlzWdUM92
+R2
+IzPziD:WaPXE3izfc^:cok3
+R3
+R0
+w1740102457
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/testbench.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/testbench.v
+!i122 23
+L0 2 20
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/testbench.v|
+!i113 1
+R7
+R8
+R9
+vXnorGate
+R13
+!i10b 1
+!s100 ni3S]gaBhYS^_6_90d77f3
+R2
+IIXfnMMglUM?a3fRNXT?TR1
+R3
+R0
+R4
+8C:/Users/Windows/Desktop/dual-old/dual_issue_git/XnorGate.v
+FC:/Users/Windows/Desktop/dual-old/dual_issue_git/XnorGate.v
+!i122 2
+L0 1 8
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Windows/Desktop/dual-old/dual_issue_git/XnorGate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Windows/Desktop/dual-old/dual_issue_git|C:/Users/Windows/Desktop/dual-old/dual_issue_git/XnorGate.v|
+!i113 1
+R7
+R8
+R9
+n@xnor@gate

@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "flush1_B",
+					"strict" : false
+				},
+				{
+					"name" : "flush2_B",
+					"strict" : false
+				},
+				{
+					"name" : "flush1_J",
+					"strict" : false
+				},
+				{
+					"name" : "flush2_J",
+					"strict" : false
+				},
+				{
+					"name" : "flush1_JR",
+					"strict" : false
+				},
+				{
+					"name" : "flush2_JR",
+					"strict" : false
+				},
+				{
+					"name" : "flush_JB",
+					"strict" : false
+				},
+				{
+					"name" : "wrongPrediction_1",
+					"strict" : false
+				},
+				{
+					"name" : "wrongPrediction_2",
+					"strict" : false
+				},
+				{
+					"name" : "NewpcSource_inst2",
+					"strict" : false
+				},
+				{
+					"name" : "NewJump_inst2",
+					"strict" : false
+				},
+				{
+					"name" : "BranchExecute_1",
+					"strict" : false
+				},
+				{
+					"name" : "prediction_1",
+					"strict" : false
+				},
+				{
+					"name" : "actual_prediction_1",
+					"strict" : false
+				},
+				{
+					"name" : "BranchExecute_2",
+					"strict" : false
+				},
+				{
+					"name" : "prediction_2",
+					"strict" : false
+				},
+				{
+					"name" : "actual_prediction_2",
+					"strict" : false
+				},
+				{
+					"name" : "PcSource_inst1",
+					"strict" : false
+				},
+				{
+					"name" : "Jump_EX_inst1",
+					"strict" : false
+				},
+				{
+					"name" : "PcSource_inst2",
+					"strict" : false
+				},
+				{
+					"name" : "Jump_EX_inst2",
+					"strict" : false
+				},
+				{
+					"name" : "nullifyJump",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

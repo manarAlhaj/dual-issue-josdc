@@ -1,0 +1,28 @@
+
+addi $1, $0, 0x0
+addi $2, $0, 0xB
+addi $3, $0, 0x7
+loop:
+slt $7, $2, $1
+bne $0, $7, notFound
+add $4, $2, $1
+srl $5, $4, 1
+lw  $6, 0x0($5)
+beq $3, $6, found
+slt $6, $6, $3
+beq $6, $0, LEFTHALF
+j rightHalf
+LEFTHALF:
+addi $2, $5, 0xFFFF
+j loop
+rightHalf:
+addi $1, $5, 0x1
+j loop
+found:
+add $8, $0, $5
+j FINISH
+notFound:
+addi $8, $0, 0xFFFF
+j FINISH
+FINISH:
+sll $0, $0, 0

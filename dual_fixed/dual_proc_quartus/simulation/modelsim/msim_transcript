@@ -1,0 +1,320 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/QuartusPrime/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/InstructionMemory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:04 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/InstructionMemory.v 
+# -- Compiling module InstructionMemory
+# 
+# Top level modules:
+# 	InstructionMemory
+# End time: 03:07:04 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/DataMemory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:04 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/DataMemory.v 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 03:07:04 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/XnorGate.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:04 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/XnorGate.v 
+# -- Compiling module XnorGate
+# 
+# Top level modules:
+# 	XnorGate
+# End time: 03:07:04 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/SignExtend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:04 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/SignExtend.v 
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	SignExtend
+# End time: 03:07:04 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/RegFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:04 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/RegFile.v 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 03:07:04 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/Mux5to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:04 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/Mux5to1.v 
+# -- Compiling module Mux5to1
+# 
+# Top level modules:
+# 	Mux5to1
+# End time: 03:07:04 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/Mux3to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:04 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/Mux3to1.v 
+# -- Compiling module Mux3to1
+# 
+# Top level modules:
+# 	Mux3to1
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/mux2to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/mux2to1.v 
+# -- Compiling module mux2to1
+# 
+# Top level modules:
+# 	mux2to1
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/MEM_WB_inst2Pipe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/MEM_WB_inst2Pipe.v 
+# -- Compiling module MEM_WB_inst2Pipe
+# 
+# Top level modules:
+# 	MEM_WB_inst2Pipe
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/MEM_WB_inst1Pipe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/MEM_WB_inst1Pipe.v 
+# -- Compiling module MEM_WB_inst1Pipe
+# 
+# Top level modules:
+# 	MEM_WB_inst1Pipe
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/IF_ID1_Pipe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/IF_ID1_Pipe.v 
+# -- Compiling module IF_ID1_Pipe
+# 
+# Top level modules:
+# 	IF_ID1_Pipe
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ID_EX_inst2Pipe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ID_EX_inst2Pipe.v 
+# -- Compiling module ID_EX_inst2Pipe
+# 
+# Top level modules:
+# 	ID_EX_inst2Pipe
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ID_EX_inst1Pipe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ID_EX_inst1Pipe.v 
+# -- Compiling module ID_EX_inst1Pipe
+# 
+# Top level modules:
+# 	ID_EX_inst1Pipe
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/gshare_branch_predictor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/gshare_branch_predictor.v 
+# -- Compiling module gshare_branch_predictor
+# 
+# Top level modules:
+# 	gshare_branch_predictor
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ForwardingUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:05 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ForwardingUnit.v 
+# -- Compiling module ForwardingUnit
+# 
+# Top level modules:
+# 	ForwardingUnit
+# End time: 03:07:05 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/EX_MEM_inst2Pipe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/EX_MEM_inst2Pipe.v 
+# -- Compiling module EX_MEM_inst2Pipe
+# 
+# Top level modules:
+# 	EX_MEM_inst2Pipe
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/EX_MEM_inst1Pipe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/EX_MEM_inst1Pipe.v 
+# -- Compiling module EX_MEM_inst1Pipe
+# 
+# Top level modules:
+# 	EX_MEM_inst1Pipe
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v 
+# -- Compiling module dual_issue_processor
+# 
+# Top level modules:
+# 	dual_issue_processor
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ControlUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ControlUnit.v 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/BranchCmpUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/BranchCmpUnit.v 
+# -- Compiling module BranchCmpUnit
+# 
+# Top level modules:
+# 	BranchCmpUnit
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ANDGate.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ANDGate.v 
+# -- Compiling module ANDGate
+# 
+# Top level modules:
+# 	ANDGate
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/mini_Control_Unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/mini_Control_Unit.v 
+# -- Compiling module mini_Control_Unit
+# 
+# Top level modules:
+# 	mini_Control_Unit
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus {C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:07:06 on Feb 19,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus" C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:07:06 on Feb 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:07:07 on Feb 19,2025
+# Loading work.testbench
+# Loading work.dual_issue_processor
+# Loading work.IF_ID1_Pipe
+# Loading work.gshare_branch_predictor
+# Loading work.InstructionMemory
+# Loading altera_mf_ver.altsyncram
+# Loading work.mini_Control_Unit
+# Loading work.SignExtend
+# Loading work.ControlUnit
+# Loading work.RegFile
+# Loading work.ID_EX_inst1Pipe
+# Loading work.ID_EX_inst2Pipe
+# Loading work.ALU
+# Loading work.BranchCmpUnit
+# Loading work.XnorGate
+# Loading work.ANDGate
+# Loading work.ForwardingUnit
+# Loading work.Mux5to1
+# Loading work.mux2to1
+# Loading work.Mux3to1
+# Loading work.EX_MEM_inst1Pipe
+# Loading work.EX_MEM_inst2Pipe
+# Loading work.DataMemory
+# Loading work.MEM_WB_inst1Pipe
+# Loading work.MEM_WB_inst2Pipe
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MEM_WB_INST1_PIPE'.  Expected 10, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/MEM_WB_INST1_PIPE File: C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v Line: 554
+# ** Warning: (vsim-3722) C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v(554): [TFMPC] - Missing connection for port 'pcPlus1_Mem'.
+# ** Warning: (vsim-3722) C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v(554): [TFMPC] - Missing connection for port 'pcPlus1_WB'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: testbench.uut.IM.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: testbench.uut.DM.altsyncram_component.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/testbench.v(13)
+#    Time: 5719 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/testbench.v line 13
+do wave.do; restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MEM_WB_INST1_PIPE'.  Expected 10, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/MEM_WB_INST1_PIPE File: C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v Line: 554
+# ** Warning: (vsim-3722) C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v(554): [TFMPC] - Missing connection for port 'pcPlus1_Mem'.
+# ** Warning: (vsim-3722) C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/dual_issue_processor.v(554): [TFMPC] - Missing connection for port 'pcPlus1_WB'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: testbench.uut.IM.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: testbench.uut.DM.altsyncram_component.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/testbench.v(13)
+#    Time: 5719 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/Windows/Desktop/phaseIII_git/cache-me-if-you-can/dual_proc_quartus/testbench.v line 13
+# End time: 03:09:43 on Feb 19,2025, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 3

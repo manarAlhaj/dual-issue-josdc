@@ -1,0 +1,36 @@
+ADDI $8, $0, 0
+ADDI $16, $0, 4
+ADDI $17, $0, 3
+ADDI $20, $0, 0
+ADDI $9, $0, 0
+OUTERLOOP:
+SLT $11, $9, $16
+BEQ $11, $0, exitOuter
+ADDI $14, $0, 0
+ADDI $15, $0, 0
+MULTIPLY:
+SLT $11, $15, $9
+BEQ $11, $0, endMultiply
+ADD $14, $14, $17
+ADDI $15, $15, 1
+JAL Multiply
+ENDMULTIPLY:
+ADD $14, $14, $0
+ADDI $10, $0, 0
+ADD  $14, $14, $20
+INNERLOOP:
+SLT $11, $10, $17
+BEQ $11, $0, exitInner
+ADD $15, $10, $0
+ADD $24, $14, $15
+LW $24, matrix($24)
+BNE $24, $0, notZero
+ADDI $8, $8, 1
+NOTZERO:
+ADDI $10, $10, 1
+JAL innerLoop
+EXITINNER:
+ADDI $9, $9, 1
+JAL outerLoop
+EXITOUTER:
+sll $0, $0, 0

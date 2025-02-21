@@ -1,0 +1,30 @@
+|Hazard_Detection_Unit
+prediction_1 => wrongPrediction_1.IN0
+prediction_2 => wrongPrediction_2.IN0
+actual_prediction_1 => wrongPrediction_1.IN1
+actual_prediction_2 => wrongPrediction_2.IN1
+BranchExecute_1 => wrongPrediction_1.IN1
+BranchExecute_1 => RightPrediction_1.IN1
+BranchExecute_2 => wrongPrediction_2.IN1
+PcSource_inst1 => flush1_J.IN0
+PcSource_inst1 => flush1_JR.IN0
+PcSource_inst2 => flush2_J.IN0
+PcSource_inst2 => flush2_JR.IN0
+Jump_EX_inst1 => flush1_J.IN1
+Jump_EX_inst1 => flush1_JR.IN1
+Jump_EX_inst2 => flush2_J.IN1
+Jump_EX_inst2 => flush2_JR.IN1
+nullifyJump => flush_JB.IN1
+flush1_B << wrongPrediction_1.DB_MAX_OUTPUT_PORT_TYPE
+flush2_B << wrongPrediction_2.DB_MAX_OUTPUT_PORT_TYPE
+flush1_J << flush1_J.DB_MAX_OUTPUT_PORT_TYPE
+flush2_J << flush2_J.DB_MAX_OUTPUT_PORT_TYPE
+flush1_JR << flush1_JR.DB_MAX_OUTPUT_PORT_TYPE
+flush2_JR << flush2_JR.DB_MAX_OUTPUT_PORT_TYPE
+flush_JB << flush_JB.DB_MAX_OUTPUT_PORT_TYPE
+wrongPrediction_1 << wrongPrediction_1.DB_MAX_OUTPUT_PORT_TYPE
+wrongPrediction_2 << wrongPrediction_2.DB_MAX_OUTPUT_PORT_TYPE
+NewpcSource_inst2 << flush_JB.DB_MAX_OUTPUT_PORT_TYPE
+NewJump_inst2 << flush_JB.DB_MAX_OUTPUT_PORT_TYPE
+
+
